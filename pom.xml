@@ -1,0 +1,18 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>co.unicauca.microkernel</groupId>
+    <artifactId>EjemploMicrokernel</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>Microkernel-common</module>
+        <module>Microkernel-core</module>
+        <module>Microkernel-colombia-plugin</module>
+        <module>Microkernel-mexico-plugin</module>
+        <module>Microkernel-argentina-plugin</module>
+    </modules>
+</project>
